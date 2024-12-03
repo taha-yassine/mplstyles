@@ -1,0 +1,54 @@
+# Modern dark theme for matplotlib
+# Base colors
+lines.color: white
+patch.edgecolor: white
+text.color: E0E0E0
+
+# Background and axes
+axes.facecolor: 1E1E1E
+axes.edgecolor: 404040
+axes.labelcolor: E0E0E0
+axes.prop_cycle: cycler('color', ['00B4D8', 'FF6B6B', '4ECB71', 'FFB86C', 'A89AE6', 'FF8F8F', '4DA6FF', 'FFD93D', '95E06C', 'FF6B6B'])
+axes.grid: True
+axes.linewidth: 0.8
+
+# Ticks
+xtick.color: 808080
+ytick.color: 808080
+xtick.labelsize: 9
+ytick.labelsize: 9
+
+# Grid
+grid.color: 404040
+grid.alpha: 0.3
+grid.linewidth: 0.8
+grid.linestyle: --
+
+# Figure
+figure.facecolor: 121212
+figure.edgecolor: 121212
+figure.figsize: 10, 6
+figure.dpi: 100
+
+# Font
+font.size: 10
+axes.labelsize: 11
+axes.titlesize: 12
+
+# Legend
+legend.facecolor: 1E1E1E
+legend.edgecolor: 404040
+legend.fontsize: 10
+legend.framealpha: 0.8
+
+# Boxplots
+boxplot.boxprops.color: E0E0E0
+boxplot.capprops.color: E0E0E0
+boxplot.flierprops.color: E0E0E0
+boxplot.flierprops.markeredgecolor: E0E0E0
+boxplot.whiskerprops.color: E0E0E0
+
+# Saving figures
+savefig.facecolor: 121212
+savefig.edgecolor: 121212
+savefig.transparent: False
