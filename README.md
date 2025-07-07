@@ -4,5 +4,5 @@ A collection of custom Matplotlib styles.
 ### `dark`
 ![dark](assets/dark.png)
 ```python
-plt.style.use('https://github.com/taha-yassine/mplstylesheets/raw/master/styles/dark.mplstyle')
+plt.style.use('https://github.com/taha-yassine/mplstyles/raw/master/styles/dark.mplstyle')
 ```
